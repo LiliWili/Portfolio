@@ -15,7 +15,7 @@ Esse portfólio foi desenvolvido como parte de uma atividade do Curso de Desenvo
    ```sh
    cd portfolio
    ```
-3. Abra o arquivo `index.html` no seu navegador.
+3. Abra o arquivo `portfolio.html` no seu navegador.
 
 ## Contato
 📧 Email: [wilianevitoria683@gmail.com](mailto:wilianevitoria683@gmail.com)  
