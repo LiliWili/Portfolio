@@ -5,17 +5,50 @@ Esse portfólio foi desenvolvido como parte de uma atividade do Curso de Desenvo
 ## 🛠️ Tecnologias Utilizadas
 - HTML5, CSS3
 - Bootstrap 5.3
+- Angular
+
+## **Pré-requisitos**
+Antes de começar, certifique-se de ter os seguintes itens instalados no seu computador:
+
+- **Node.js** (inclui o npm) → [Baixar aqui](https://nodejs.org/)
+- **Angular CLI** → Instale com o comando no cmd:
+  ```sh
+  npm install -g @angular/cli
+  ```  
+- **Editor de código** (VSCode) → [Baixar aqui](https://code.visualstudio.com/)
+
 
 ## Como Executar Localmente
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/LiliWili/portfolio.git
-   ```
-2. Acesse o diretório:
-   ```sh
-   cd portfolio
-   ```
-3. Abra o arquivo `portfolio.html` no seu navegador.
+**1. Clonar o Repositório do GitHub**
+- Abra o terminal e execute o seguinte comando:
+
+```sh
+git clone https://github.com/liliwili/portfolio.git
+```
+
+**2. Depois, entre na pasta do projeto clonado:**
+```sh
+cd portfolio
+```
+
+**3. Instalar as Dependências**
+- Dentro da pasta do projeto, execute:
+
+```sh
+npm install
+```
+- Isso instalará todas as bibliotecas necessárias para rodar o projeto.
+
+
+**4. Rodar o Servidor do Angular**
+- Agora, inicie o servidor Angular com o comando:
+
+```sh
+ng serve --open
+```
+
+- Isso abrirá o projeto no navegador no endereço padrão `http://localhost:4200/`.
+
 
 ## Contato
 📧 Email: [wilianevitoria683@gmail.com](mailto:wilianevitoria683@gmail.com)  
