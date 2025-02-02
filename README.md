@@ -1,64 +1,59 @@
 # Portfolio
 
-Esse portfólio foi desenvolvido como parte de uma atividade do Curso de Desenvolvimento Full Stack da Treina Recife, sob orientação do professor João Ferreira.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
-## 🛠️ Tecnologias Utilizadas
-- HTML5, CSS3
-- Bootstrap 5.3
-- Angular
+## Development server
 
-## **Pré-requisitos**
-Antes de começar, certifique-se de ter os seguintes itens instalados no seu computador:
+To start a local development server, run:
 
-- **Node.js** (inclui o npm) → [Baixar aqui](https://nodejs.org/)
-- **Angular CLI** → Instale com o comando no cmd:
-  ```sh
-  npm install -g @angular/cli
-  ```  
-- **Editor de código** (VSCode) → [Baixar aqui](https://code.visualstudio.com/)
-
-
-## Como Executar Localmente
-**1. Clonar o Repositório do GitHub**
-- Abra o terminal e execute o seguinte comando:
-
-```sh
-git clone https://github.com/liliwili/portfolio.git
+```bash
+ng serve
 ```
 
-**2. Depois, entre na pasta do projeto clonado:**
-```sh
-cd portfolio
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
 ```
 
-**3. Instalar as Dependências**
-- Dentro da pasta do projeto, execute:
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```sh
-npm install
-```
-- Isso instalará todas as bibliotecas necessárias para rodar o projeto.
-
-
-**4. Rodar o Servidor do Angular**
-- Agora, inicie o servidor Angular com o comando:
-
-```sh
-ng serve --open
+```bash
+ng generate --help
 ```
 
-- Isso abrirá o projeto no navegador no endereço padrão `http://localhost:4200/`.
+## Building
 
+To build the project run:
 
-## Contato
-📧 Email: [wilianevitoria683@gmail.com](mailto:wilianevitoria683@gmail.com)  
-💼 LinkedIn: [Wiliane Vitoria](https://www.linkedin.com/in/wiliane-vitoria-maria-da-silva-627754270/)  
-🐙 GitHub: [LiliWili](https://github.com/LiliWili)
+```bash
+ng build
+```
 
-## Autores
-<em>-João Ferreira<a href="https://github.com/joaoferreirape"> github</a></em>
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-<em>- Wiliane Vitoria</em>
+## Running unit tests
 
-## 📜 Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
