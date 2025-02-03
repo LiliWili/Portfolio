@@ -4,6 +4,8 @@ Esse portfólio foi desenvolvido como parte de uma atividade do Curso de Desenvo
 - HTML5, CSS3
 - Bootstrap 5.3
 - Angular
+- NodeJs
+- 
 ## **Pré-requisitos**
 Antes de começar, certifique-se de ter os seguintes itens instalados no seu computador:
 - **Node.js** (inclui o npm) → [Baixar aqui](https://nodejs.org/)
